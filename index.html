@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Insertion Sort</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script type="module" src="./scripts/main.mjs"></script>
+
+    <!-- Test Suite -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.css"></link>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine-html.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/boot.js"></script>
+
+    <script type="module" src="./scripts/main.spec.mjs"></script>
+</head>
+<body>
+    <textarea class="user-input"></textarea>
+    
+    
+    <template data-template="template-invalid-input-alert">
+        <div class="invalid-input-alert">
+            Input must be numbers separated by whitespace
+        </div>
+    </template>
+
+    <template data-template="template-list-now-ordered">
+        <div class="list-now-ordered">
+            List is now ordered. Steps taken: {countStepsTaken}
+        </div>
+    </template>
+
+    <template data-template="template-display-numbers">
+        <div class="display-numbers"></div>
+    </template>
+
+    <template data-template="template-number-item">
+        <div class="number-item"></div>
+    </template>
+
+    <template data-template="button-for-next-step">
+        <button class="button-for-next-step">
+            Click for next step of algorithm
+        </button>
+    </template>
+</body>
+</html>
